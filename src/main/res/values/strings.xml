@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">USC Films</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="search_hint">Search movies and TV</string>
+    <string name="element_text">This is the recycler view</string>
+</resources>

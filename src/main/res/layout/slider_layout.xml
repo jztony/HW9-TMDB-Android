@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slider_layout"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <!--Image we will display is our slider view-->
+
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_width="358dp"
+        android:layout_height="370dp"
+        android:layout_marginLeft="25dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/img_top"
+        android:layout_width="250dp"
+        android:layout_height="370dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_baseline_local_movies_24" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/media_id"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:visibility="gone" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/media_type"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:visibility="gone" />-->
+
+</RelativeLayout>
